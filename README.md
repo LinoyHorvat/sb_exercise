@@ -37,7 +37,9 @@ It is important to remember that you should solve the exercise in a way that bes
 ### How do I hand this in?
 
 You have two options:
+
 1. Host it somewhere online, give us the link
+
 2. Send us instructions on how to spin up your solution locally
 
 Either way, we obviously want your code so be sure to send that over.
