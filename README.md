@@ -16,7 +16,7 @@ If the search did yield results, they should be presented to the user. Each resu
 * Age
 * Phone
 * Address
-* Portrait picture (jpg) 
+* Portrait picture (png) 
  
 ### What we give you
 Creating this from scratch could take quite a bit of time. Seeing how we realize your time is valuable, we'd like to help! Here is a list of things that we'll supply you with. Some are essential to actually complete the exercise and others are just meant to make your life easier:
