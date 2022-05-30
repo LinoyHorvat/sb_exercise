@@ -1,0 +1,29 @@
+{
+  "name": "sb_exercise",
+  "version": "1.0.0",
+  "description": "Welcome to SafeBreach's home exercise! As you've no doubt been told, the aim of this exercise is to see how you actually write code in an optimal environment (or at least, an environment that is better than in an interview room on a machine you don't know while a couple of people are staring at you).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "server": "nodemon server/app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/safebreach/sb-fullstack-exercise-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/safebreach/sb-fullstack-exercise-3#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  }
+}
