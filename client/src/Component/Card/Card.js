@@ -1,14 +1,14 @@
 import React from 'react'
 import './style.css'
-import image1 from './../../images/image1.png'
-
-const importImageFolder = (pictureURL) => {
-}
 
 function Card({picture, name, age, address, phone_number}) {
+  
+  if (!picture || !name || !age || !address ||!phone_number) {
+    return null;
+  }
   const imagePath = require(`../../images/${picture}`)
   return (
-    <div className="container">
+    <div className="card-container" data-testid="card">
         <img className="user-avatar" src={imagePath} alt=""/>
     <div className="sub-container">
         <div className="label">

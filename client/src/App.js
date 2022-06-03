@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
       <h1>Yellow Pages</h1>
       <input
         type="text"
