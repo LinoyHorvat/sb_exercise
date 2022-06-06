@@ -11,14 +11,13 @@
 
 .App h1{
   margin: 10px 0px 0px 0px;
-  color: rgb(140, 133, 133);
+  color: rgb(91, 87, 87);
 }
 
-/* TODO: style the app for mobile & desktop  */
 .App{
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100% */
+  height: 100%
 }

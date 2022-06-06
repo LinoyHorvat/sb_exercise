@@ -15,7 +15,7 @@ const isAge = (str) => {
   return false;
 };
 const year = (age) => {
-  // TODO: get the current year
+  const currentYear =new Date().getFullYear()    
   return String(Number(2022 - age));
 };
 

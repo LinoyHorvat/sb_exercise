@@ -14,8 +14,8 @@ function App() {
   };
 
   const age = (birthday) => {
-    // TODO: get the current year
-    return String(Number(2022 - birthday.slice(0, 4)));
+    const currentYear =new Date().getFullYear()    
+    return String(Number(currentYear - birthday.slice(0, 4)));
   };
 
   useEffect(() => {
