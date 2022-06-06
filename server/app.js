@@ -4,7 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const axios = require("axios");
 require("./db/mongoose");
-// //
+
 app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));

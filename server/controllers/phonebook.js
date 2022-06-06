@@ -1,5 +1,7 @@
 const Phonebook = require("../models/Phonebook");
 
+// TODO: fixed (053) phone
+
 const isPhoneNumber = (str) => {
   if (!isNaN(Number(str)) && str.length > 3) return true;
   return false;
